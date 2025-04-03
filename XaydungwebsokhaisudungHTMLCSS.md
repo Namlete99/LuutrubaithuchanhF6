@@ -1,5 +1,7 @@
 # Xây dựng web sơ khai khi chỉ sử dụng HTML; CSS
 
+***
+
 ## index.html
 
 ```html
@@ -44,6 +46,8 @@
   </body>
 </html>
 ```
+
+***
 
 ## test.css
 
@@ -144,6 +148,8 @@ table a:hover {
   text-align: center;
 }
 ```
+
+***
 
 ## `thanhvienlop.html`
 
