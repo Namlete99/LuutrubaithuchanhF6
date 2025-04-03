@@ -45,7 +45,7 @@
 </html>
 
 
-```html
+``` csscss
 /* Xóa gạch chân & đổi màu mặc định */
 a {
   text-decoration: none;
