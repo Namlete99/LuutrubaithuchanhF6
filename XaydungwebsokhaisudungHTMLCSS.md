@@ -35,6 +35,16 @@
       </tr>
     </table>
 
+    <!--Phần nội dung của mục (bảng 2)-->
+    <table width="100%" height="1000px" border="0" cellspacing="0">
+      <tr>
+        <td width="10%" valign="top"></td>
+        <td>
+          <iframe src="gioithieu.html" name="iframe_noidung" width="100%" height="1000px" frameborder="0"></iframe>
+        </td>
+      </tr>
+    </table>
+    <hr />
     <!--Chân trang-->
     <center>
       <header>
