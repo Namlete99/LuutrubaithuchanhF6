@@ -56,10 +56,7 @@
       <header>
         <h2>Dễ dàng truy cập và theo dõi</h2>
         <br />
-        <p>
-          Bạn đang ghé thăm kỉ yếu lớp 12A6 - Xin cảm ơn đã quan tâm kỉ yếu của
-          lớp 12A6
-        </p>
+        <p>Bạn đang ghé thăm kỉ yếu lớp 12A6 - Xin cảm ơn đã quan tâm kỉ yếu của lớp 12A6</p>
       </header>
       <br />
       <footer>© Copyright, Lớp 12A6 2024 - 2025</footer>
