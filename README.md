@@ -10,4 +10,4 @@
 
 ## Notes 04/04/2025 
 
-+ Phần web đã căn chỉnh ote, nhưng chưa phát triển thành css box đúng chất css 
++ Phần web đã căn chỉnh ote ( trừ file web xây HTML, Java, CSS;  nhưng chưa phát triển thành css box đúng chất css )
