@@ -18,9 +18,12 @@
     <table class="customtable">
       <!--Phần Tiêu đề trang-->
       <tr>
-        <td colspan="2" class="customtable1"><p class="title">Kỉ yếu lớp 12A</p></td>
+        <td colspan="2" class="customtable1">
+          <p class="title">Kỉ yếu lớp 12A</p>
+        </td>
       </tr>
     </table>
+
     <!--Phần thân trang web -->
     <table border="1" class="customtable2">
       <!--Phần mục (bảng 1)-->
@@ -31,7 +34,9 @@
         <td><a href="hoatdong.html" target="iframe_noidung">Hoạt động</a></td>
       </tr>
       <tr>
-        <td><a href="thanhvienlop.html" target="iframe_noidung">Thành viên lớp</a></td>
+        <td>
+          <a href="thanhvienlop.html" target="iframe_noidung">Thành viên lớp</a>
+        </td>
       </tr>
     </table>
 
@@ -45,16 +50,23 @@
       </tr>
     </table>
     <hr />
+
     <!--Chân trang-->
     <center>
       <header>
         <h2>Dễ dàng truy cập và theo dõi</h2>
-        <p>Bạn đang ghé thăm kỉ yếu lớp 12A6 - Xin cảm ơn đã quan tâm kỉ yếu của lớp 12A6</p>
+        <br />
+        <p>
+          Bạn đang ghé thăm kỉ yếu lớp 12A6 - Xin cảm ơn đã quan tâm kỉ yếu của
+          lớp 12A6
+        </p>
       </header>
+      <br />
       <footer>© Copyright, Lớp 12A6 2024 - 2025</footer>
     </center>
   </body>
 </html>
+
 ```
 
 ***
@@ -62,10 +74,15 @@
 ## test.css
 
 ``` css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* Xóa gạch chân & đổi màu mặc định */
 a {
   text-decoration: none;
-  color: blue; /* Màu bình thường */
+  color: rgb(35, 42, 238); /* Màu bình thường */
   font-size: 15px;
   font-family: "Times New Roman", serif;
   transition: color 0.3s ease; /* Hiệu ứng mượt */
@@ -85,7 +102,7 @@ table a:hover {
 /* Phần tiêu đề */
 .title {
   font-family: "Times New Roman", serif;
-  color: orange;
+  color: coral;
   font-size: 50px;
   font-weight: bold;
 }
@@ -132,31 +149,39 @@ table a:hover {
   font-size: 3px;
 }
 /* thanhvienlop.html */
+
 .title1 {
   font-family: "Times New Roman", serif;
-  font-style: normal;
-  color: blue;
+  color: rgb(44, 105, 220);
   font-size: 20px;
+  font-weight: bolder;
 }
 
 .title2 {
   font-family: "Times New Roman", serif;
   font-style: normal;
-  color: blue;
+  color: rgb(36, 93, 199);
   font-size: 30px;
+  font-weight: bolder;
 }
 
+.title3 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(36, 93, 199);
+  font-size: 17px;
+}
 .table {
   border-collapse: collapse;
-  border: 1px solid blue; /* Viền xanh nước biển */
+  border: 1px solid cornflowerblue; /* Viền xanh nước biển */
 }
 
 .table th,
 .table td {
-  border: 1px solid blue; /* Viền xanh nước biển */
+  border: 1px solid cornflowerblue; /* Viền xanh nước biển */
   padding: 8px;
   text-align: center;
 }
+
 ```
 
 ***
@@ -177,24 +202,25 @@ table a:hover {
     <table width="700" valign="top">
       <tr>
         <td colspan="2" align="center">
-          <font face="Times New Roman" color="blue" size="6px"><b>Thành viên lớp</b></font>
+          <div class="title2">Thành viên lớp</div>
       </td>
       </tr>
     </table>
+    <br>
     <!--Bảng thành viên lớp-->
     <table class="table" width="700" height="10">
       <tr>
-        <th width="10%">STT</th>
-        <th width="40%">Họ và tên</th>
-        <th width="15%">Ngày sinh</th>
-        <th width="20%">Chức vụ</th>
+        <th width="10%"><div class="title1">STT</div></th>
+        <th width="40%"><div class="title1">Họ và tên</div></th>
+        <th width="15%"><div class="title1">Ngày sinh</div></th>
+        <th width="20%"><div class="title1">Chức vụ</div></th>
         <th width="15%"></th>
       </tr>
       <tr>
-        <td>1</td>
-        <td><p align="left">Lê Huỳnh Duy Anh</p></td>
-        <td>25/06/2007</td>
-        <td>TNXK</td>
+        <td><div class="title3">1</div></td>
+        <td><div class="title3" align="left">Lê Huỳnh Duy Anh</div></td>
+        <td><div class="title3">25/06/2007</div></td>
+        <td><div class="title3">TNXK</div></td>
         <td><a href="#">Xem chi tiết</a></td>
       </tr>
       <tr>
