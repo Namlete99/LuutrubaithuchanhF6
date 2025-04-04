@@ -8,7 +8,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kỉ yếu lớp 12A</title>
   </head>
   <body>
@@ -17,7 +17,9 @@
       <!--Phần Tiêu đề trang-->
       <tr>
         <td colspan="2" align="center">
-          <font face="Times New Roman" size="10px" color="orange"><b>Kỉ yếu lớp 12A</b></font>
+            <font face="Times New Roman" size="10px" color="coral">
+                <b>Kỉ yếu lớp 12A</b>
+            </font>
         </td>
       </tr>
     </table>
@@ -27,17 +29,17 @@
       <!--Phần mục (bảng 1)-->
       <tr>
         <td>
-          <a href="gioithieu.html" target="iframe_noidung" class="active">Trang chủ</a>
+          <a href="trangchu.html" target="iframe_noidung"><font color="royal blue">Trang chủ</font></a>
         </td>
       </tr>
       <tr>
         <td>
-          <a href="hoatdong.html" target="iframe_noidung">Hoạt động</a>
+          <a href="hoatdong.html" target="iframe_noidung"><font color="royal blue">Hoạt động</font></a>
         </td>
       </tr>
       <tr>
         <td>
-          <a href="thanhvienlop.html" target="iframe_noidung">Thành viên lớp</a>
+          <a href="./thanhvienlop.html" target="iframe_noidung"><font color="royal blue"> Thành viên lớp</font></a>
         </td>
       </tr>
     </table>
@@ -47,7 +49,7 @@
       <tr>
         <td width="10%" valign="top"></td>
         <td>
-          <iframe src="gioithieu.html" name="iframe_noidung" width="100%" height="1000px"frameborder="0"></iframe>
+          <iframe src="gioithieu.html" name="iframe_noidung" width="100%" height="1000px" frameborder="0"></iframe>
         </td>
       </tr>
     </table>
@@ -58,7 +60,10 @@
       <header>
         <font face="Times New Roman" size="3">
           <h2>Dễ dàng truy cập và theo dõi</h2>
-          <p>Bạn đang ghé thăm kỉ yếu lớp 12A6 - Xin cảm ơn đã quan tâm kỉ yếu của lớp 12A6</p>
+          <p>
+            Bạn đang ghé thăm kỉ yếu lớp 12A6 - Xin cảm ơn đã quan tâm kỉ yếu
+            của lớp 12A6
+          </p>
         </font>
       </header>
       <footer>
@@ -86,27 +91,27 @@
     <table border="0" width="700" valign="top">
       <tr>
         <td colspan="2" align="center">
-          <font face="Times New Roman" color="blue" size="6px"><b>Thành viên lớp</b></font>
+          <font face="Times New Roman" color="cornflowerblue" size="6px"><b>Thành viên lớp</b></font>
         </td>
       </tr>
     </table>
 
     <!--Bảng thành viên lớp-->
-    <table border="1" width="700" height="10">
+    <table border="1" width="700" height="10" cellspacing="0">
       <tr>
-        <th width="10%">STT</th>
-        <th width="40%">Họ và tên</th>
-        <th width="15%">Ngày sinh</th>
-        <th width="20%">Chức vụ</th>
+        <th width="10%"><font color="cornflowerblue">STT</font></th>
+        <th width="40%"><font color="cornflowerblue">Họ và tên</font></th>
+        <th width="15%"><font color="cornflowerblue">Ngày sinh</font></th>
+        <th width="20%"><font color="cornflowerblue">Chức vụ</font></th>
         <th width="15%"></th>
       </tr>
       <!--Thông tin 46 học sinh-->
       <tr align="center">
-        <td>1</td>
-        <td><p align="left">Lê Huỳnh Duy Anh</p></td>
-        <td>25/06/2007</td>
-        <td>TNXK</td>
-        <td><a href="#">Xem chi tiết</a></td>
+        <td><font color="cornflowerblue">1</font></td>
+        <td><p align="left"><font color="cornflowerblue">Lê Huỳnh Duy Anh</font></p></td>
+        <td><font color="cornflowerblue">25/06/2007</font></td>
+        <td><font color="cornflowerblue">TNXK</font></td>
+        <td><a href="#"><font color="cornflowerblue">Xem chi tiết</font></a></td>
       </tr>
       <tr align="center">
         <td>2</td>
@@ -426,4 +431,4 @@
     </table>
   </body>
 </html>
-
+```
