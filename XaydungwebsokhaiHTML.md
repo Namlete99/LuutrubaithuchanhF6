@@ -95,7 +95,7 @@
         </td>
       </tr>
     </table>
-
+    <br>
     <!--Bảng thành viên lớp-->
     <table border="1" width="700" height="10" cellspacing="0">
       <tr>
