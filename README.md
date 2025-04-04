@@ -7,3 +7,7 @@
 + Kiểm tra lần cuối xem các file kia code đã clean chưa.
 
 + Sau khi xong ba file này, phân tích ba file này để hoàn thành bản báo cáo. 
+
+## Notes 04/04/2025 
+
++ Phần web đã căn chỉnh ote, nhưng chưa phát triển thành css box đúng chất css 
